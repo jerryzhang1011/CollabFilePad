@@ -1,0 +1,27 @@
+{
+  "name": "collabfilepad",
+  "version": "1.0.0",
+  "description": "CollabFilePad – LAN-only realtime collaborative file editor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "signal": "node signal.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.18.3",
+    "y-textarea": "^1.0.2",
+    "y-webrtc": "^10.3.0",
+    "yjs": "^13.6.27"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "vite": "^5.4.19"
+  },
+  "type": "module"
+}
